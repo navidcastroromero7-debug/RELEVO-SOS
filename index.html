@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>RELEVO | SHARE OF SHELF - SOS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">SOS</span><div><strong>RELEVO SHARE OF SHELF</strong><small>Canal Moderno · Noviembre 2026</small></div></div>
+      <div class="top-actions">
+        <button id="overviewBtn" class="icon-btn" title="Ver todas las diapositivas" aria-label="Ver todas las diapositivas">▦</button>
+        <button id="fullscreenBtn" class="icon-btn" title="Pantalla completa" aria-label="Pantalla completa">⛶</button>
+      </div>
+    </header>
+
+    <section class="stage-wrap">
+      <button id="prevBtn" class="nav-arrow prev" aria-label="Diapositiva anterior">‹</button>
+      <div class="stage" id="stage">
+        <img id="slideImage" src="slides/slide-01.png" alt="Diapositiva 1 de 19">
+        <div id="overview" class="overview hidden" aria-label="Todas las diapositivas"></div>
+      </div>
+      <button id="nextBtn" class="nav-arrow next" aria-label="Diapositiva siguiente">›</button>
+    </section>
+
+    <footer class="controls">
+      <div class="slide-count"><span id="current">01</span><span class="slash">/</span><span id="total">19</span></div>
+      <div class="progress"><div id="progressFill"></div></div>
+      <div class="bottom-actions">
+        <button id="prevText" class="text-btn">Anterior</button>
+        <button id="nextText" class="primary-btn">Siguiente →</button>
+      </div>
+    </footer>
+    <div class="hint">Usa ← → para navegar · F para pantalla completa · Esc para salir</div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

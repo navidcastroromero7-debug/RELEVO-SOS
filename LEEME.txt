@@ -1,0 +1,21 @@
+RELEVO SHARE OF SHELF - SOS | PRESENTACIÓN HTML
+
+CONTENIDO
+- index.html: página principal
+- styles.css: estilos visuales
+- script.js: navegación e interacciones
+- slides/: imágenes PNG de las 19 diapositivas
+
+USO LOCAL
+1. Descomprime la carpeta.
+2. Abre index.html en Chrome, Edge o Firefox.
+3. Usa las flechas del teclado o los botones para navegar.
+4. Pulsa F o el botón ⛶ para pantalla completa.
+
+PUBLICACIÓN
+Sube TODOS los archivos y la carpeta slides/ a la raíz de tu hosting.
+En Netlify: arrastra la carpeta descomprimida al área de deploy.
+En GitHub Pages: sube el contenido del ZIP a un repositorio y activa Pages.
+
+NOTA
+Las diapositivas se conservan como imágenes de alta resolución para mantener exactamente su apariencia. El contenido no es editable como texto HTML individual.
